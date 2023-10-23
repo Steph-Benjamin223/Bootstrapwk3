@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+   
     <link
       rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  
+   <!--bootstrap link in head of the body-->
+  </head><!--found Navbar on Bootstrap and customized for my website-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Steph's Rescue</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
@@ -23,7 +24,7 @@
           <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Page2.html">Residents</a>
+          <a class="nav-link" href="Page2.html">Residents</a><!--used href to link to other pages on Navbar-->
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Page3.html">Volunteer</a>
@@ -34,38 +35,50 @@
     <img
       src="https://static.wixstatic.com/media/bc11f1_606140cfe2394399ab56408359e89611~mv2.jpg/v1/fill/w_490,h_471,al_t,q_80,usm_0.66_1.00_0.01,enc_auto/bc11f1_606140cfe2394399ab56408359e89611~mv2.jpg
     "
-    />
-    <div>
-      <p></p>
-      <table class="table table-dark table-hover">
-        <tr>
-          <th>Farm Animal</th>
-          <th>Barn Location</th>
-          <th>Number</th>
-        </tr>
-        <tr>
-          <td>Sheep</td>
-          <td>Barn 2</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>Pigs</td>
-          <td>Barn 1</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <td>Cows</td>
-          <td>Barn 1</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>Goats</td>
-          <td>Barn 4</td>
-          <td>6</td>
-        </tr>
-      </table>
-    </div>
-
+    ><!--Link to image of sheep on web-->
+    <!--grid table with Bootstrap that stacks on top of eachother when screen size small-->
+      <p></p><div class="container"</div>
+        <div class="row">
+          <div class="col-sm">Farm Animal
+          </div>
+          <div class="col-sm">Barn Location
+          </div>
+          <div class="col-sm">Number
+          </div>
+        </div>
+      <div class="container"</div>
+        <div class="row">
+          <div class="col-sm">Sheep
+          </div>
+          <div class="col-sm">Barn 2
+          </div>
+          <div class="col-sm">5
+          </div>
+          <div class="container"</div>
+            <div class="row">
+              <div class="col-sm">Pigs
+              </div>
+              <div class="col-sm">Barn 1
+              </div>
+              <div class="col-sm">3
+              </div>
+              <div class="container"</div>
+                <div class="row">
+                  <div class="col-sm">Cows
+                  </div>
+                  <div class="col-sm">Barn 1
+                  </div>
+                  <div class="col-sm">3
+                  </div>
+                  <div class="container"</div>
+                    <div class="row">
+                      <div class="col-sm">Goats
+                      </div>
+                      <div class="col-sm">Barn 4
+                      </div>
+                      <div class="col-sm">6
+                      </div>
+        
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
