@@ -1,1 +1,6 @@
- 
+.div-borders {
+  border-style: solid;
+  border-color: blue;
+  padding: 5px;
+  margin: 5px;
+}
